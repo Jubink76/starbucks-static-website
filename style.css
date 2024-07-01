@@ -1,0 +1,242 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+    margin:0;
+    font-family: "Roboto","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.left-nav img{ 
+    height:50px;
+    cursor: pointer;
+    padding-right:30px;
+}
+.left-nav a{
+    text-decoration: none;
+    font-size:bold;
+    color:#000;
+}
+.left-nav li{
+    display: inline-block;
+    padding:15px 15px;
+    
+}
+.left-nav{
+    display: flex;
+}
+.right-nav button{
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    border:solid 1px;
+    
+}
+.right-nav span{
+    cursor: pointer;
+    float:left;
+    margin-right: 50px;
+}
+.right-nav i{
+    padding:10px;
+}
+.sign-in{
+    background-color: #fff;
+
+}
+.join-cls{
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.99);
+}
+.nav-btn-cls{
+    display:flex;
+    gap:15px;
+    padding-left:10px;
+}
+.right-nav{
+    padding-top: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 50px;
+}
+.header{
+ 
+    box-shadow:0px 1px 2px rgb(198, 193, 193);
+}
+.section{
+    padding-left: 40px;
+    padding-right:40px;
+}
+.img-cls{
+    width:50%;
+}
+.img-cls img{
+    width: 100%;
+    float:left;
+}
+.content-cls{
+    width:50%;
+    display: flex;
+    text-align: center;
+    
+}
+.row{
+    display:flex;
+    padding-top:30px;
+}
+.content-cls{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-text .head-main{
+    font-size: 3.1em;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+.content-text .para-main{
+    font-size:1.4em;
+    font-weight: 400;
+    padding-top:30px;
+    letter-spacing: .1em;
+}
+.content-text .head-sub{
+    font-size:1.6em;
+    font-weight: 500;
+}
+.content-text .para-sub{
+    font-size:1.2em;
+    padding-top:30px;
+
+}
+.content-text button{
+    padding:5px 10px;
+    font-weight: bold;
+    font-size:1.1em;
+    border-radius: 20px;
+    margin-top: 40px;
+    border:2px solid;
+    background:transparent;
+}
+#first-row{
+    background-color: #1c3a2f;
+    color: #fff;
+    padding-left: 80px;
+    padding-right:80px
+}
+#second-row{
+    background-color: #c0e8a6;
+    padding-left:120px;
+    padding-right:120px;
+    color: #1e3932;
+}
+#third-row{
+    background-color: #a3029a;
+    padding-left:120px;
+    padding-right:120px;
+    color:#fff;
+}
+#forth-row{
+    background-color: #f2f0eb;
+    padding-left: 110px;
+    padding-right: 110px;
+    color: #1e3932;
+}
+#fifth-row{
+    background-color: #d3eae2;
+    padding-left:100px;
+    padding-right: 100px;
+    color: #1e3932;
+}
+#sixth-row{
+    background-color: #ffffff;
+    color: #1e3932;
+    padding-left:120px;
+    padding-right:120px;
+}
+#seventh-row{
+    background-color: #d4e9e2;
+    padding-left:100px;
+    padding-right:100px;
+    color: #1e3932;
+}
+.white-btn{
+    color:#fff;
+    border-color: #fff;
+}
+.gray-btn{
+    color:#1e3932;
+    border-color:#1e3932;
+}
+.description-cls{
+    text-align:center;
+    box-shadow:0px 1px 2px rgb(198, 193, 193);
+}
+.description-cls p{
+    padding-top:50px;
+    padding-bottom: 50px;
+    margin-left:28%;
+    margin-right: 28%;
+    font-size:14px;
+    letter-spacing: .4px;
+    line-height:1.5em;
+}
+.footer {
+    display:flex;
+    column-gap:3em;
+    padding:20px;
+}
+.footer .col-1{
+    width:190px;
+    
+}
+.col-1 ul{
+    list-style-type: none;
+}
+.col-1 li{
+    padding-top:25px;
+}
+.col-1 a{
+    text-decoration: none;
+    color:rgba(32, 27, 27, 0.688);
+
+}
+.footer-link{
+    display: inline-block;
+    letter-spacing: .5px;
+}
+.footer-head h3{
+    font-weight: 400;
+}
+.media-cls{
+    display: flex;
+    gap:10px;
+}
+.media-cls img{
+    width:40px;
+}
+.term-cond a{
+    text-decoration: none;
+    color: #000;
+}
+.term-cond li{
+    padding-top: 20px;
+}
+.term-cond ul{
+    padding-top:20px;
+    padding-bottom: 30px;
+    list-style-type: none;
+}
+.link-section{
+    width:95%;
+    margin:30px;
+    border-top:2px solid  rgb(198, 193, 193);
+    padding-top:30px;
+}
+.link-section p{
+    color:rgba(32, 27, 27, 0.688);
+    font-size:.9em;
+}
